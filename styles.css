@@ -1,0 +1,55 @@
+/*.worksSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url('post it.png');
+  cursor: pointer;
+}
+
+.daysSlider::-moz-range-thumb {
+  width: 23px;
+  height: 25px;
+  border: 0;
+  background: url('calander.png');
+  cursor: pointer;
+}
+  #works::-moz-range-thumb{
+      background:url(post it.png);
+  }
+  #days::-moz-range-thumb{
+      background:url(calander.png);
+  }*/
+
+body {
+ background-color:#F5F5DC ;
+ text-align:center;
+}
+div.container{
+  margin-top: 150px;
+  margin-bottom:30px;
+  height: 500px;
+  width: 700px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  border-radius: 25px; 
+  background-color:white; 
+
+}
+h1#title{
+  text-align: center;
+  font-size: 65px;
+  margin-top:40px;
+}
+.slider{
+   -webkit-appearance: none;
+  width: 400px;
+  height: 10px;
+  border-radius:5px; 
+  background-color: black;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
